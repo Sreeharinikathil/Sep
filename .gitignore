@@ -1,0 +1,28 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Build
+dist/
+build/
+
+# Uploads & Temp
+server/uploads/*
+!server/uploads/.gitkeep
+temp/
+*.log
+
+# Database runtime (we keep seed.js to generate the database)
+server/data/*.db-shm
+server/data/*.db-wal
+
+# OS
+.DS_Store
+Thumbs.db
