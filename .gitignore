@@ -16,6 +16,7 @@ build/
 # Uploads & Temp
 server/uploads/*
 !server/uploads/.gitkeep
+!server/uploads/*.pdf
 temp/
 *.log
 
